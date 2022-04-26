@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav styles */
+.logo {
+  /* color: white;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.ein {
+  width: 50px;
+  height: auto;
+  transform: scalex(-1);
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  /* padding-right: 10%; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 18px;
+  color: #bababa;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+.navbar {
+  display: flex;
+  background-color: #1f2937;
+  padding: 6px;
+}
+
+.navbar .container {
+  padding: 8px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* main body styles */
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* section one styles */
+
+.first-section {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-style: dotted; */
+  padding: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-section .container {
+  /* border-style: dotted; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 16px;
+  padding: 16px;
+}
+
+.cowboy-image {
+  height: auto;
+  width: 320px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.cowboy-image:hover,
+button:hover {
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+.first-section .container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  align-self: center;
+}
+
+.first-section .container button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  align-self: center;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+/* section two styles */
+
+.second-section {
+  background-color: whitesmoke;
+  color: black;
+  /* border-style: dotted; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+  /* padding: 90px; */
+}
+
+.second-section .container {
+  /* border: solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 90px;
+}
+
+.second-section h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 6px solid red; */
+  text-align: center;
+  gap: 16px;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  transition: transform 0.2s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
