@@ -128,6 +128,7 @@ button:hover {
   /* border: solid; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 24px;
   margin: 90px;
 }
@@ -135,7 +136,7 @@ button:hover {
 .second-section h3 {
   font-size: 36px;
   font-weight: bold;
-  margin-top: 16px;
+  margin-top: 32px;
 }
 
 .card {
@@ -158,4 +159,44 @@ button:hover {
 
 .card img:hover {
   transform: scale(1.1);
+}
+
+/* third section styles */
+
+.third-section {
+  background-color: #e5e7eb;
+  /* border: dotted; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+}
+
+.third-section .container {
+  /* border: dotted; */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.third-section .container h3 {
+  /* border: dotted; */
+  align-self: flex-end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  padding: 16px;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
